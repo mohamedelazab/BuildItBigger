@@ -55,7 +55,8 @@ dependencies {
     implementation 'com.android.support:customtabs:28.0.0'
     implementation 'com.android.support:animated-vector-drawable:28.0.0'
     implementation 'com.android.support:support-media-compat:28.0.0'
-    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+    //notice that "freeImplementation" to be targeted for only free version.!
+    freeImplementation 'com.google.android.gms:play-services-ads:15.0.1'
     implementation 'com.google.api-client:google-api-client:1.23.0'
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
